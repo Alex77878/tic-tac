@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Button } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 
 import { Board } from "./board";
@@ -42,6 +44,7 @@ class Game extends React.Component {
           <div>{status}</div>
           <ol>{/* TODO */}</ol>
         </div>
+        <Button variant="primary">Primary</Button>
       </div>
     );
   }
